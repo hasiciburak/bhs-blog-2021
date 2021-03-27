@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.image-area {
+  grid-area: image-area;
+}
+.main-container {
+  padding-left: 4.5%;
+  padding-right: 4.5%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+}
+#brand-logo {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.nav-link {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.main-content-area {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "image-area header-area";
+  grid-column-gap: 20px;
+}
+
+.footer-area {
+  position: absolute;
+  bottom: 0;
+}
+
+.main-content-image {
+  max-width: 100%;
+  min-width: 600px;
+  width: 600px;
+}
